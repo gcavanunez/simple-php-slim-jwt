@@ -26,7 +26,7 @@ $app->post('/login', function (Request $request, Response $response, array $args
     return $this->response->withJson(['error' => true, 'message' => 'Incorrect password']);
   }
 
-  $settings = $this->get('settings'); // get settings array.
+  // $settings = $this->get('settings'); // get settings array.
 
   $token = JWT::encode(['id' => $user->id, 'email' => $user->email], getenv("JWT_SECRET"), getenv("JWT_HASH"));
 
