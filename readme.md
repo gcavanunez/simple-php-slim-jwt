@@ -10,3 +10,5 @@ run composer to install dependencies
 You need to have  [php](https://php.net/) installed.
 
 ## Deployment
+
+- check the yml file
