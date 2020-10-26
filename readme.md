@@ -8,3 +8,5 @@ run composer to install dependencies
 ### Prerequisites
 
 You need to have  [php](https://php.net/) installed.
+
+## Deployment
